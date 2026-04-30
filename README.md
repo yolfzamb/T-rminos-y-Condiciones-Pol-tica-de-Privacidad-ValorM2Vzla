@@ -1,2 +1,3 @@
-# T-rminos-y-Condiciones-Pol-tica-de-Privacidad---ValorM2Vzla
-Términos y Condiciones &amp; Política de Privacidad -  Del proyecto ValorM2Vzla
+# Términos y Condiciones de uso , Política de Privacidad y Aviso Legal - ValorM2Vzla
+
+Documentación legal oficial para el proyecto ValorM2Vzla: Términos y Condiciones de Uso, Política de Privacidad y Aviso Legal.
