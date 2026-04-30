@@ -25,8 +25,9 @@
         }
 
         .container {
+            position: relative; /* Para posicionar el logo internamente */
             background-color: #ffffff;
-            padding: 50px;
+            padding: 70px 50px 50px 50px; /* Más padding arriba para el logo */
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
             border-top: 6px solid var(--primary);
@@ -37,6 +38,7 @@
             text-align: center;
             font-size: 28px;
             margin-bottom: 40px;
+            margin-top: 20px; /* Espacio extra sobre el título */
         }
 
         h2 {
@@ -97,22 +99,25 @@
 
         .logo-container {
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 25px;
+            left: 25px; /* Mover a la izquierda */
         }
 
         .logo-container img {
-            width: 100px;
+            width: 70px; /* Más pequeño */
             height: auto;
-            border-radius: 12px; /* Bordes redondeados */
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         }
 
         @media (max-width: 600px) {
+            .container {
+                padding-top: 50px;
+            }
             .logo-container {
                 position: relative;
                 top: 0;
-                right: 0;
+                left: 0;
                 text-align: center;
                 margin-bottom: 20px;
             }
