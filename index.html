@@ -94,11 +94,37 @@
         strong {
             color: var(--text-dark);
         }
+
+        .logo-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .logo-container img {
+            width: 100px;
+            height: auto;
+            border-radius: 12px; /* Bordes redondeados */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 600px) {
+            .logo-container {
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo ValorM2Vzla">
+    </div>
     <h1>Términos y Condiciones de uso , Política de Privacidad y Aviso Legal - ValorM2Vzla</h1>
 
     <h2>Términos y Condiciones de Uso</h2>
